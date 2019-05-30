@@ -42,7 +42,12 @@ function makeInt(n){
   return parseInt(n, 10);
 }
 
+<<<<<<< HEAD
 
 function preserveDecimal(n){
+=======
+function preserveDecimal(n){
+  n = 2.222;
+>>>>>>> 1d0447198618d008d76c29688e5a7c2365f78f14
   return parseFloat(n);
 }
